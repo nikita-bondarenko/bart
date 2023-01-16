@@ -1,0 +1,8 @@
+@font-face {
+    font-display: swap;
+    font-weight: 400;
+    font-family: 'Radiotechnika';
+    font-style: normal;
+    src: url(../font/Radiotechnika.woff2) format("woff2"), url(../font/Radiotechnika.woff) format("woff");
+}
+
