@@ -13,13 +13,13 @@ require 'vendor/autoload.php';
     $mail->isSMTP();
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
-    $mail->Username = 'naradadasosmi@gmail.com';
-    $mail->Password = 'cgbftpsmcjfnohrj';
+    $mail->Username = 'example@gmail.com';
+    $mail->Password = 'secret';
     $mail->SMTPSecure = 'ssl';
     $mail->Port = 465;
     $mail->CharSet = "utf-8";
-    $mail->setFrom('naradadasosmi@gmail.com');
-    $mail->addAddress('info@bart-group.com');
+    $mail->setFrom('example@gmail.com');
+    $mail->addAddress('example@gmail.com');
     $mail->isHTML(true);
     $mail->Subject = "Message from bart-group.com";
  
