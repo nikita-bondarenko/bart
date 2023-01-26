@@ -20,6 +20,8 @@ module.exports = {
 
           '2xl': '1536px',
           // => @media (min-width: 1536px) { ... }
+          '3xl': '2048px',
+          '4xl': '2560px',
       },
       fontFamily: {
           'mont': ['Montserrat', 'system-ui'],
@@ -29,6 +31,11 @@ module.exports = {
               colors: {
                   blue: '#27348B',
                   black: '#282828'
+              },
+              backgroundImage: {
+                  telegram: "url('../public/images/tg.png')",
+                  questions: "url('../public/images/qst.png')",
+                  mail: "url('../public/images/mail.png')"
               }
           }
 

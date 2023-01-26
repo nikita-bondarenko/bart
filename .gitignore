@@ -11,6 +11,12 @@
 # production
 /build
 
+/public/vendor
+/public/*.lock
+/public/*.json
+/public/*.php
+
+
 # misc
 .DS_Store
 .env.local
