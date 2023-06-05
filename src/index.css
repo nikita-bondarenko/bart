@@ -26,11 +26,11 @@
     }
 
     .body {
-        @apply bg-white;
+        @apply bg-[#282828];
     }
 
     .main {
-        @apply bg-black;
+        @apply bg-[#282828];
     }
 
     #root {

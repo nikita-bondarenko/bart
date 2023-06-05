@@ -307,11 +307,15 @@ const Main = ({isAnimationEnded}: MainProps) => {
             </section>
             <section className="container footer">
                 <div className={'footer__body'}>
-                    <a href="https://telegram.me/ms_dance1" target="_blank" className=" telegram-link"><span
+                    <a href="https://telegram.me/hradmin_bart" target="_blank" className=" telegram-link"><span
                         className={'telegram-icon'}></span> Telegram</a>
                     <div className={'questions'}>
                         <p className="questions__label"> Вопросы и предложения:</p>
                         <p className="questions__value"><span className={'mail-icon'}></span>info@bart-group.com</p>
+                    </div>
+                    <div className={'questions'}>
+                        <p className="questions__label"> Работа в B.ART</p>
+                        <p className="questions__value"><span className={'mail-icon'}></span>hr@bart-group.com</p>
                     </div>
                     <div className="footer__docs docs">
                         <a rel="stylesheet" href="/files/BART%20Пользовательское%20Соглашение.pdf" download={''}
@@ -319,7 +323,7 @@ const Main = ({isAnimationEnded}: MainProps) => {
                         <a rel="stylesheet" href="/files/BART%20Политика%20конфиденциальности.pdf" download={''}
                            className="docs__item">Политика конфиденциальности</a>
                     </div>
-                    <p className={'footer__logo'}>@ 2022 Управляющая компания БАРТ</p>
+                    <p className={'footer__logo'}>@ 2022 ООО Консалт Сервис</p>
                 </div>
             </section>
         </div>
