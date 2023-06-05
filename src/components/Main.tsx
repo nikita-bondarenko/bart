@@ -310,7 +310,7 @@ const Main = ({isAnimationEnded}: MainProps) => {
                     <a href="https://telegram.me/hradmin_bart" target="_blank" className=" telegram-link"><span
                         className={'telegram-icon'}></span> Telegram</a>
                     <div className={'questions'}>
-                        <p className="questions__label"> Вопросы и предложения:</p>
+                        <p className="questions__label"> Вопросы и предложения</p>
                         <p className="questions__value"><span className={'mail-icon'}></span>info@bart-group.com</p>
                     </div>
                     <div className={'questions'}>
