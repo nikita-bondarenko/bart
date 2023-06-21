@@ -7,7 +7,7 @@ import SuccessWindow from "./components/SuccessWindow";
 
 function App() {
 
-    const [isAnimationEnded, setIsAnimationEnded] = useState<boolean>(false)
+    const [isAnimationEnded, setIsAnimationEnded] = useState<boolean>(true)
 
     const animationHandler =() => {
         setIsAnimationEnded(true)
@@ -16,7 +16,7 @@ function App() {
     return (
         <>
             {/*<Animation onAnimationEnded={animationHandler}></Animation>*/}
-            {!isAnimationEnded && window.innerWidth >= 1024 && <Animation onAnimationEnded={animationHandler}></Animation>}
+            {/*{!isAnimationEnded && window.innerWidth >= 1024 && <Animation onAnimationEnded={animationHandler}></Animation>}*/}
             <Main isAnimationEnded={isAnimationEnded}></Main>
 
         </>

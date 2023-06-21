@@ -244,5 +244,21 @@
             </filter>
         </defs>
     </symbol>
-
+    <symbol id="white-circle-rectangle" width="100%" height="100%" viewBox="0 0 97 82" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g filter="url(#filter0_d_610_2016)">
+            <path d="M16 16H52C63.598 16 73 25.402 73 37C73 48.598 63.598 58 52 58H16V16Z" fill="white"/>
+        </g>
+        <defs>
+            <filter id="filter0_d_610_2016" x="0" y="0" width="97" height="82" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                <feOffset dx="4" dy="4"/>
+                <feGaussianBlur stdDeviation="10"/>
+                <feComposite in2="hardAlpha" operator="out"/>
+                <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.4 0"/>
+                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_610_2016"/>
+                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_610_2016" result="shape"/>
+            </filter>
+        </defs>
+    </symbol>
 </svg>

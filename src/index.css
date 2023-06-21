@@ -212,6 +212,13 @@
     }
 
 
+    .white-circle-rectangle {
+        @apply w-[89px] h-[80px] top-[-47px] right-[-34px]
+        sm:w-[121px] sm:h-[102px] sm:top-[-61px] sm:right-[-52px]
+        md:w-[78px] md:h-[78px] md:top-[30px] md:right-[-45px]
+
+    }
+
     /*circle*/
     .about__circle {
         @apply hidden w-[370px] h-[370px] mx-auto relative
@@ -233,20 +240,22 @@
     }
 
     .circle__item.first .circle__content {
-        @apply top-[70px] max-w-[119px]  left-[50%] translate-x-[-50%] z-20
-        xl:max-w-[240px] xl:top-[115px]
-        2xl:max-w-[348px] 2xl:top-[157px]
+        @apply top-[65px] max-w-[141px]  left-[50%] translate-x-[-50%] z-20
+        xl:max-w-[228px] xl:top-[110px]
+        2xl:max-w-[274px] 2xl:top-[157px]
     }
+
+
 
 
     .circle__item.second {
-        @apply rotate-[72deg]
+        @apply rotate-[60deg]
     }
 
     .circle__item.second .circle__content {
-        @apply rotate-[-72deg] left-[126px] top-[96px] max-w-[150px]
-        xl:max-w-[230px] xl:left-[238px] xl:top-[143px]
-        2xl:max-w-[340px] 2xl:left-[310px] 2xl:top-[234px]
+        @apply rotate-[-60deg] left-[122px] top-[79px] max-w-[136px]
+        xl:max-w-[230px] xl:left-[211px] xl:top-[148px]
+        2xl:max-w-[340px] 2xl:left-[268px] 2xl:top-[234px]
     }
 
     .circle__item.second .about__title {
@@ -258,59 +267,77 @@
     }
 
     .circle__item.third {
-        @apply rotate-[144deg]
+        @apply rotate-[120deg]
     }
 
     .circle__item.third .circle__content {
-        @apply rotate-[-144deg] left-[106px] top-[-37px] max-w-[140px]
-        xl:max-w-[200px] xl:left-[245px] xl:top-[-49px]
-        2xl:max-w-[340px] 2xl:left-[311px] 2xl:top-[-33px]
+        @apply rotate-[-120deg] left-[156px] top-[-20px] max-w-[116px]
+        xl:max-w-[200px] xl:left-[272px] xl:top-[-29px]
+        2xl:max-w-[319px] 2xl:left-[340px] 2xl:top-[11px]
     }
 
     .circle__item.third .about__title {
-        @apply text-left ml-[-10px]
+        @apply text-center ml-[-10px]
         xl:text-center xl:ml-[0px]
     }
 
     .circle__item.third .about__text {
-        @apply text-left
+        @apply text-right
     }
 
     .circle__item.fourth {
-        @apply rotate-[216deg]
+        @apply rotate-[180deg]
     }
 
     .circle__item.fourth .circle__content {
-        @apply rotate-[-216deg] right-[123px] top-[-40px] max-w-[130px]
-        xl:max-w-[220px] xl:right-[242px] xl:top-[-45px]
-        2xl:max-w-[315px] 2xl:right-[325px] 2xl:top-[-32px]
+        @apply rotate-[-180deg] right-[122px] top-[-64px] max-w-[130px]
+        xl:max-w-[220px] xl:right-auto xl:left-[50%] xl:top-[-77px] xl:translate-x-[-50%]
+        2xl:max-w-[315px] 2xl:right-[325px] 2xl:top-[-435px] 2xl:relative
     }
 
     .circle__item.fourth .about__title {
-        @apply text-right
+        @apply text-center
         xl:text-center
     }
 
     .circle__item.fourth .about__text {
-        @apply text-right
+        @apply text-center
     }
 
     .circle__item.fifth {
-        @apply rotate-[288deg]
+        @apply rotate-[240deg]
     }
 
     .circle__item.fifth .circle__content {
-        @apply rotate-[-288deg] right-[150px] top-[73px] max-w-[130px]
-        xl:max-w-[200px] xl:right-[280px] xl:top-[105px]
-        2xl:max-w-[340px] 2xl:right-[321px] 2xl:top-[213px]
+        @apply rotate-[-240deg] right-[153px] top-[-13px] max-w-[130px]
+        xl:max-w-[200px] xl:right-[278px] xl:top-[-20px]
+        2xl:max-w-[340px] 2xl:right-[325px] 2xl:top-[32px]
 
     }
 
     .circle__item.fifth .about__title {
-        @apply text-left
+        @apply text-center
     }
 
     .circle__item.fifth .about__text {
+        @apply text-left
+    }
+
+    .circle__item.sixth {
+        @apply rotate-[300deg]
+    }
+
+    .circle__item.sixth .circle__content {
+        @apply rotate-[-300deg] top-[58px] max-w-[119px]  left-[164px] translate-x-[-50%] z-20
+        xl:max-w-[240px] xl:top-[132px] xl:left-[297px]
+        2xl:max-w-[300px] 2xl:top-[190px] 2xl:left-[426px]
+    }
+
+    .circle__item.sixth .about__title {
+        @apply text-left
+    }
+
+    .circle__item.sixth .about__text {
         @apply text-left
     }
 
@@ -323,9 +350,9 @@
     }
 
     .circle__clickable, .circle__blur {
-        @apply bg-transparent  w-[244px] h-[183px] skew-x-[-33deg] skew-y-[34deg] left-[64px] absolute top-[-90px] rotate-[3deg]
-        xl:w-[661px] xl:h-[563px] xl:rotate-[4deg] xl:left-[9px] xl:top-[-480px] xl:skew-x-[-32deg]
-        2xl:left-[142px] 2xl:top-[-350px]
+        @apply bg-transparent  w-[249px] h-[207px] skew-x-[-30deg] skew-y-[41deg] left-[58px] absolute top-[-140px] rotate-[0deg]
+        xl:w-[661px] xl:h-[563px] xl:rotate-[-1deg] xl:left-[0px] xl:top-[-547px] xl:skew-x-[-32deg]
+        2xl:left-[114px] 2xl:top-[-426px] 2xl:w-[671px] 2xl:skew-x-[-31deg]
     }
 
 
@@ -341,7 +368,7 @@
 
     .circle__triangle {
         @apply w-[58%] h-[48%] mx-auto rotate-[0.6deg]
-        xl:w-[58%] xl:h-[49%]
+        xl:w-[58%] xl:h-[48%]
         2xl:w-[59%]
     }
 
@@ -350,14 +377,14 @@
     }
 
     .about__title {
-        @apply xl:text-[23px]
+        @apply  xl:text-[23px]
         2xl:text-[25px]
     }
 
     .about__text {
         @apply md:opacity-0 md:text-[8px]
-        xl:text-[14px] xl:font-light
-        2xl:text-[18px]
+        xl:text-[13px] xl:font-light
+        2xl:text-[16px]
     }
 
     .subtitle__text {
